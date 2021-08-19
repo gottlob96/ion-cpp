@@ -1,5 +1,14 @@
 #include "scanner/scanner.h"
 
-int Square(int x) {
+// #include "jsoncjson.h"
+#include <iostream>
+#include <fstream>
+
+int Square(int x)
+{
   return x * x;
+}
+
+void Scan()
+{
 }
