@@ -1,9 +1,10 @@
 cc_test(
   name = "unittests",
   srcs = ["scanner_test.cc"],
-  copts = ["-Iexternal/gtest/include"],
+  # includes = ["-Iexternal/gtest/include"],
   deps = [
    "//scanner:scanner",
-   "@gtest//:main"
+   "@gtest//:gtest",
+   "@gtest//:gtest_main"
   ]
 )
